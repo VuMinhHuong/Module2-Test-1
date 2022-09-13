@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+.container .seach {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.container .seach input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(86, 86, 254);
+}
+.container .seach button {
+    width: 40px;
+    background-color: rgb(86, 86, 254);
+    border: none;
+
+}
+.container .seach button:hover {
+    cursor: pointer;
+    background-color:  rgb(59, 59, 253);
+}
+.container .seach button ion-icon {
+    width: 15px;
+}
+
+.container .data .divData_index {
+    display: flex;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 300px;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 2px;
+}
+.container .data .divData_index:hover {
+    cursor: pointer;
+    background-color: rgb(201, 201, 201);
+}
+/* Xét lại ảnh */
+.container .data .divData_index .img {
+    width: 60px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+/* Chỉnh lại size ảnh đúng tỷ lệ */
+.container .data .divData_index .img img {
+    /* max-width: 60px; */
+    background-size: 100%;
+    /* max-height: 100%; */
+    /* object-fit: cover; */
+}
+
+.container .data .divData_index h4 {
+    padding-top: 5px;
+}
+.container .data .divData_index p {
+    opacity: 0.7;
+}
+
